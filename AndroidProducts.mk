@@ -1,13 +1,13 @@
 #
-# Copyright (C) 2020 SuperiorOS
+# Copyright (C) 2020 SparkOS
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/superior_ginkgo.mk
+    $(LOCAL_DIR)/spark_ginkgo.mk
 
 COMMON_LUNCH_CHOICES := \
-    superior_ginkgo-user \
-    superior_ginkgo-userdebug \
-    superior_ginkgo-eng
+    spark_ginkgo-user \
+    spark_ginkgo-userdebug \
+    spark_ginkgo-eng
