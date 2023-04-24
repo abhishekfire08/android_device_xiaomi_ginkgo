@@ -1,13 +1,13 @@
 #
-# Copyright (C) 2020 SparkOS
+# Copyright (C) 2020 StagOS
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/spark_ginkgo.mk
+    $(LOCAL_DIR)/stag_ginkgo.mk
 
 COMMON_LUNCH_CHOICES := \
-    spark_ginkgo-user \
-    spark_ginkgo-userdebug \
-    spark_ginkgo-eng
+    stag_ginkgo-user \
+    stag_ginkgo-userdebug \
+    stag_ginkgo-eng
