@@ -46,8 +46,8 @@ PRODUCT_MODEL := Redmi Note 8/8T
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-#Spark Official
+#Spark UNOfficial
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.spark.maintainer=𝒌𝒊𝒃𝒓𝒊𝒂5
+    ro.spark.maintainer=xyz_abhishek
 
 TARGET_NO_PREBUILT_CAMERA := true

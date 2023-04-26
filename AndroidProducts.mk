@@ -1,14 +1,14 @@
 #
-# Copyright (C) 2020 ArrowOS
+# Copyright (C) 2020 SparkOS
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_ginkgo.mk
+    $(LOCAL_DIR)/spark_ginkgo.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_ginkgo-user \
-    arrow_ginkgo-userdebug \
-    arrow_ginkgo-eng
+    spark_ginkgo-user \
+    spark_ginkgo-userdebug \
+    spark_ginkgo-eng
 
