@@ -1,13 +1,14 @@
 #
-# Copyright (C) 2020 StagOS
+# Copyright (C) 2020 ArrowOS
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/stag_ginkgo.mk
+    $(LOCAL_DIR)/arrow_ginkgo.mk
 
 COMMON_LUNCH_CHOICES := \
-    stag_ginkgo-user \
-    stag_ginkgo-userdebug \
-    stag_ginkgo-eng
+    arrow_ginkgo-user \
+    arrow_ginkgo-userdebug \
+    arrow_ginkgo-eng
+
